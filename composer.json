@@ -1,0 +1,15 @@
+{
+    "name": "user/advancedphp.home",
+    "description": "HW_2",
+    "require": {
+        "php": ">=5.5",
+        "imagecow/imagecow": "1.5.*",
+        "anthonymartin/geo-location": "^1.0"
+    },
+    "authors": [
+        {
+            "name": "leybal",
+            "email": "leybal@ukr.net"
+        }
+    ]
+}
