@@ -4,7 +4,6 @@ require 'vendor/autoload.php';
 use Imagecow\Image;
 use Imagecow\Utils\IconExtractor;
 
-
 use AnthonyMartin\GeoLocation\GeoLocation as GeoLocation;
 
 // Set locations
