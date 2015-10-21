@@ -6,6 +6,11 @@
         "imagecow/imagecow": "1.5.*",
         "anthonymartin/geo-location": "^1.0"
     },
+    "autoload": {
+        "psr-4": {
+            "Animals\\": "src/Animals"
+        }
+    },
     "authors": [
         {
             "name": "leybal",

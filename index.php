@@ -25,6 +25,7 @@ class Paral implements Geometry
     protected $c;
     protected $density;
 
+
     public function __construct($a, $b, $c, $density)
     {
         $this->a = $a;
