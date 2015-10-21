@@ -8,8 +8,8 @@ use AnthonyMartin\GeoLocation\GeoLocation as GeoLocation;
 // Set locations
 $edison_nj = GeoLocation::fromDegrees(40.5187154, -74.4120953);
 $brooklyn_ny = GeoLocation::fromDegrees(40.65, -73.95);
-echo "Distance from Edison, NJ to Brooklyn, NY: " . $edison_nj->distanceTo($brooklyn_ny,
-    'kilometers') . " kilometers." . "<hr/>";
+echo "Distance from Edison, NJ to Brooklyn, NY: " . $edison_nj->distanceTo($brooklyn_ny,'kilometers') . " kilometers." . "<hr/>";
+
 
 interface Geometry
 {
@@ -135,19 +135,24 @@ $paral = new Paral(5, 6, 7.1, 0.1);
 print "Обем и масса паралелепипеда:" . "<br/>";
 print $paral->getValue() . "<br/>";
 print $paral->getMass() . "<br/>";
+
 $cube = new Cube(5, 0.1);
 print "Обем и масса куба:" . "<br/>";
 print $cube->getValue() . "<br/>";
 print $cube->getMass() . "<br/>";
+
 $Sphere = new Sphere(3, 0.1);
 print "Обем и масса сферы:" . "<br/>";
 print $Sphere->getValue() . "<br/>";
 print $Sphere->getMass() . "<br/>";
+
 $pyramid = new Pyramid(2, 3, 4, 7, 0.1);
 print "Обем и масса пирамиды:" . "<br/>";
 print $pyramid->getValue() . "<br/>";
 print $pyramid->getMass() . "<br/>";
+
 print "<hr/>" . "<br/>";
+
 print "Рандомный выбор фигуры: <br/>";
 $figures = array();
 $figuresMass = array();
@@ -174,6 +179,7 @@ for ($j = 0; $j < 4; $j++) {
         };
     }
 }
+
 $oneDArray = array();
 foreach ($figuresMass as $key_j => $val_j) {
     foreach ($figuresMass[$key_j] as $key_i => $val_i) {
@@ -182,7 +188,9 @@ foreach ($figuresMass as $key_j => $val_j) {
     }
     echo "|" . "<br/>";
 }
+
 print "<hr/>" . "<br/>";
+
 //Дигональная сортировка
 sort($oneDArray);
 $n = sizeof($figuresMass[1]) - 1;
@@ -229,6 +237,7 @@ for ($k = 1; $k < sizeof($oneDArray); $k++) {
         echo "Ошибка " . "[$i] [$j]" . "<br/>";
     }
 }
+
 echo "Диагональная сортировка (справа на лево): " . "<br/>";
 foreach ($figuresMass as $key_j => $val_j) {
     foreach ($figuresMass[$key_j] as $key_i => $val_i) {
