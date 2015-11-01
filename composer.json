@@ -8,7 +8,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Animals\\": "src/Animals"
+            "Animals\\": "src/Animals",
+            "Layer\\": "src/Layer"
         }
     },
     "authors": [
