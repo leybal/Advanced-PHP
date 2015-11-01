@@ -1,0 +1,9 @@
+<?php
+
+$config = [
+  'host' => '127.0.0.1',
+  'port' => 80,
+  'db_name' => 'db_name',
+  'db_user' => 'user',
+  'db_password' => 'pass',
+];

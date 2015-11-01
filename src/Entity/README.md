@@ -1,0 +1,1 @@
+Use such entities as users and groups. I do not understand the logic of the task as a whole, it did not use traits. It would be great if you are explained the mechanism of the "apps" from your point of view.

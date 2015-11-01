@@ -1,0 +1,108 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "a4f533261a3408b4f1d0cfa21cc5f9b3",
+    "content-hash": "e2284466982ff024ce753d30eceec326",
+    "packages": [
+        {
+            "name": "anthonymartin/geo-location",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/anthonymartin/GeoLocation.php.git",
+                "reference": "a54a562dfe8ae3eef9a5863552401d26bc80e921"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/anthonymartin/GeoLocation.php/zipball/a54a562dfe8ae3eef9a5863552401d26bc80e921",
+                "reference": "a54a562dfe8ae3eef9a5863552401d26bc80e921",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "class",
+            "autoload": {
+                "psr-0": {
+                    "AnthonyMartin": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "CC 3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Anthony Martin",
+                    "email": "anthony@replaycreative.com",
+                    "homepage": "http://replaycreative.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Retrieve bounding coordinates, distances, longitude and latitude with GeoLocation.class.php",
+            "homepage": "https://github.com/anthonymartin/GeoLocation.php",
+            "keywords": [
+                "bounding coordinates",
+                "distances",
+                "geocoding",
+                "geolocation"
+            ],
+            "time": "2013-10-25 21:13:03"
+        },
+        {
+            "name": "imagecow/imagecow",
+            "version": "v1.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/oscarotero/imagecow.git",
+                "reference": "8e429a08b600a3d895b1591cd1486e7b85c16009"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/oscarotero/imagecow/zipball/8e429a08b600a3d895b1591cd1486e7b85c16009",
+                "reference": "8e429a08b600a3d895b1591cd1486e7b85c16009",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Imagecow\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Oscar Otero",
+                    "email": "oom@oscarotero.com",
+                    "homepage": "http://oscarotero.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP library to manipulate and generate responsive images",
+            "homepage": "https://github.com/oscarotero/imagecow/",
+            "keywords": [
+                "image"
+            ],
+            "time": "2015-09-07 21:30:06"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.5"
+    },
+    "platform-dev": []
+}

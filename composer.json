@@ -1,0 +1,21 @@
+{
+    "name": "user/advancedphp.home",
+    "description": "HW_2",
+    "require": {
+        "php": ">=5.5",
+        "imagecow/imagecow": "1.5.*",
+        "anthonymartin/geo-location": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Animals\\": "src/Animals",
+            "Layer\\": "src/Layer"
+        }
+    },
+    "authors": [
+        {
+            "name": "leybal",
+            "email": "leybal@ukr.net"
+        }
+    ]
+}
