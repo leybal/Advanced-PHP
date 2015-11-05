@@ -3,8 +3,7 @@ php:
   - "5.5"
 
 before_script:
-    - composer update
-    - composer install
+  - composer install
 
 script:
-  - php phpunit
+  - phpunit
