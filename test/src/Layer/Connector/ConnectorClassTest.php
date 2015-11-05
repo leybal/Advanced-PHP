@@ -6,29 +6,25 @@ class ConnectorClassTest extends \PHPUnit_Framework_TestCase
 {
     public function testConnect()
     {
-        $mock = $this->getMockBuilder('ConnectorClass')
+        $stub = $this->getMockBuilder('Layer\Connector\ConnectorClass', array('connect'))
           ->disableOriginalConstructor()
           ->getMock();
 
-        $mock->expects($this->any())
-          ->method('connect')
-          ->will($this->returnValue('foo'));
+        $stub->method('connect')
+          ->willReturn('foo');
 
-        $conn = new ConnectorClass('','root','');
-
-        $this->assertNotEmpty($conn->connect());
-        $this->assertNotNull($conn->connect());
+        $this->assertNotEmpty($stub->connect());
+        $this->assertNotNull($stub->connect());
+        $this->assertEquals('foo', $stub->connect());
     }
 
     public function testConnectClose()
     {
-        $observer = $this->getMockBuilder('ConnectorClass', array('connectClose'))
+        $stub = $this->getMockBuilder('Layer\Connector\ConnectorClass', array('connectClose'))
           ->disableOriginalConstructor()
           ->getMock();
 
-        $subject = new ConnectorClass('','root','');
-
-        $this->assertNull($subject->connectClose());
+        $this->assertNull($stub->connectClose());
     }
 
 }
