@@ -9,7 +9,7 @@
         bootstrap = "./vendor/autoload.php">
     <testsuites>
         <testsuite name="main">
-            <directory>./tests/</directory>
+            <directory>test</directory>
         </testsuite>
     </testsuites>
 </phpunit>
