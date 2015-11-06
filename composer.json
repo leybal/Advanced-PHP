@@ -12,6 +12,9 @@
             "Layer\\": "src/Layer"
         }
     },
+    "require-dev": {
+        "phpunit/phpunit": "4.8.*"
+    },
     "authors": [
         {
             "name": "leybal",
